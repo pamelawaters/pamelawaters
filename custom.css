@@ -1,0 +1,35 @@
+.html {
+
+}
+.menu-list{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 2REM;
+}
+.blue-text, h1 {
+    color:#233D82;
+    font-size: 300%;
+} 
+.red-text, h2 {
+    color:#d7282b;
+    font-size: 300%;
+}
+.fuego, img{
+  width: 80%;
+}
+.red-text, h3 {
+    color:#d7282b;
+    font-size: 200%;
+}
+.menu-list a:hover {
+    color: #960018;
+    background-color: #FFFFFF;
+}
+
+.vimeo{
+    padding: 4em;
+}
+.columns{
+    padding-right: 3%;
+}
+
