@@ -32,4 +32,7 @@
 .columns{
     padding-right: 3%;
 }
+.tile{
+    align-content: center;
+}
 
