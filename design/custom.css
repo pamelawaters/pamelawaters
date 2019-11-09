@@ -1,11 +1,11 @@
 body {
     background-color: #FFFAFA;}
-.menu-list{
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-right: 2REM;
-}
-.blue-text, h1 {
+@media screen and (min-width: 1024px){
+.navbar{
+     display: none;
+ } 
+
+ .blue-text, h1 {
     color:#233D82;
     font-size: 300%;
 } 
@@ -13,6 +13,26 @@ body {
     color:#d7282b;
     font-size: 300%;
 }
+}  
+@media screen and (max-width: 1024px){
+    .menu{
+         display: none;
+  } 
+  .blue-text, h1 {
+    color:#233D82;
+    font-size: 200%;
+} 
+.red-text, h2 {
+    color:#d7282b;
+    font-size: 200%;
+}
+ } 
+.menu-list{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 2REM;
+}
+
 .fuego, img{
   width: 80%;
 }
