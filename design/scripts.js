@@ -1,5 +1,9 @@
 window.onload = function() {
     var images = document.getElementsByClassName('image');
+    var disableModal = document.getElementsByClassName('disable-modal');
+    if (disableModal.length > 0) {
+      return;
+    }
     for(var i = 0; i < images.length; i++) {
       var image = images[i]
       var img = image.getElementsByTagName('img')[0];
